@@ -22,8 +22,8 @@ import org.springframework.data.annotation.LastModifiedDate;
 
 import lombok.Data;
 
-@Data
 @MappedSuperclass
+@Data
 public class Persistence implements Serializable {
 private static final long serialVersionUID = 6237626800965600662L;
 
