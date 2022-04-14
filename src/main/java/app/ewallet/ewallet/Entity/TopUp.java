@@ -15,9 +15,8 @@ import lombok.Data;
 @Table(name = "topup")
 @Data
 @Where(clause = "status = 'ACTIVE'")
-public class TopUp extends Persistence{/**
- *
- */
+public class TopUp extends Persistence{
+
 private static final long serialVersionUID = -7068175314777745920L;
 
     @Column
